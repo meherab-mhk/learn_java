@@ -1,6 +1,6 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package basic;
 
@@ -9,7 +9,11 @@ package basic;
  * @author meher
  */
 import java.util.*;
-public class Seventeen {
+public class Eighteen {
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
@@ -23,10 +27,11 @@ public class Seventeen {
         
         int decNum2 = Integer.parseInt(num2, 2);
         
-        int result = decNum1 + decNum2;
+        int result = decNum1 * decNum2;
         
-        String sumBin = Integer.toBinaryString(result);
+        String multyBin = Integer.toBinaryString(result);
         
-        System.out.println("the binary result is:" + sumBin);
+        System.out.println("the binary result is:" + multyBin);
     }
+    
 }
